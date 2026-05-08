@@ -8,7 +8,7 @@ class NotEligible extends Exception {
         return "Age " + age + " is not eligible for voting";
     }
 }
-public class votingEligibility {
+public class VotingEligibility {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter age: ");
